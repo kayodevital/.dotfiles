@@ -1,7 +1,7 @@
 #!/bin/bash
 
 nitrogen --restore &
-pkill redshift && redshift -P &
+/bin/redshift-gtk &
 #mintupdate-launcher &
 nm-applet &
 xfce4-timer-plugin &
