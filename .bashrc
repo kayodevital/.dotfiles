@@ -117,9 +117,10 @@ if ! shopt -oq posix; then
   fi
 fi
 alias zathura="devour zathura"
-alias sxiv="devour sxiv"
+#alias sxiv="devour sxiv"
 alias vim="nvim"
 alias mpv="devour mpv"
+alias gimp="devour flatpak run org.gimp.GIMP"
 alias ovito="cd ovito-basic-3.9.4-x86_64/bin && devour ./ovito"
 alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
 set -o vi
