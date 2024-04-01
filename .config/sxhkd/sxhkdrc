@@ -1,0 +1,6 @@
+super + p
+	xfce4-screenshooter
+super + shift + r
+	/bin/redshift-gtk 
+super + shift + x
+	pkill redshift-gtk 
