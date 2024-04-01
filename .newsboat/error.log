@@ -5474,6 +5474,7 @@
 [2024-03-30 12:04:33] Erro ao tentar obter https://nitter.uni-sonia.com/CTTU_Recife/rss: SSL peer certificate or SSH remote key was not OK
 [2024-03-30 12:09:32] Erro ao tentar obter https://nitter.uni-sonia.com/CTTU_Recife/rss: SSL peer certificate or SSH remote key was not OK
 [2024-03-30 12:14:32] Erro ao tentar obter https://nitter.uni-sonia.com/CTTU_Recife/rss: SSL peer certificate or SSH remote key was not OK
+<<<<<<< HEAD
 [2024-03-31 14:41:03] Erro ao tentar obter https://nitter.uni-sonia.com/CTTU_Recife/rss: SSL peer certificate or SSH remote key was not OK
 [2024-03-31 14:46:02] Erro ao tentar obter https://nitter.uni-sonia.com/CTTU_Recife/rss: SSL peer certificate or SSH remote key was not OK
 [2024-03-31 14:51:02] Erro ao tentar obter https://nitter.uni-sonia.com/CTTU_Recife/rss: SSL peer certificate or SSH remote key was not OK
@@ -5863,3 +5864,5 @@
 [2024-04-01 13:01:17] Erro ao tentar obter https://nitter.uni-sonia.com/CTTU_Recife/rss: SSL peer certificate or SSH remote key was not OK
 [2024-04-01 13:06:17] Erro ao tentar obter https://nitter.uni-sonia.com/CTTU_Recife/rss: SSL peer certificate or SSH remote key was not OK
 [2024-04-01 13:11:17] Erro ao tentar obter https://nitter.uni-sonia.com/CTTU_Recife/rss: SSL peer certificate or SSH remote key was not OK
+=======
+>>>>>>> 32f6e7e83a4482af714b52b3b56d96d323d90e9e
