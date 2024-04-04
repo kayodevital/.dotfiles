@@ -124,3 +124,5 @@ alias gimp="devour flatpak run org.gimp.GIMP"
 alias ovito="cd ovito-basic-3.9.4-x86_64/bin && devour ./ovito"
 alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
 set -o vi
+source /usr/share/bash-completion/completions/git
+__git_complete dotfiles __git_main
