@@ -1,0 +1,21 @@
+[Added Associations]
+application/pdf=libreoffice-impress.desktop;org.qutebrowser.qutebrowser.desktop;librewolf.desktop;firefox.desktop;org.pwmt.zathura.desktop;org.pwmt.zathura-pdf-mupdf.desktop;libreoffice-draw.desktop;mupdf.desktop;org.pwmt.zathura-pdf-poppler.desktop;
+application/epub+zip=org.pwmt.zathura-pdf-poppler.desktop;org.pwmt.zathura-djvu.desktop;org.pwmt.zathura.desktop;
+text/plain=libreoffice-writer.desktop;org.pwmt.zathura.desktop;calibre-gui.desktop;calibre-ebook-viewer.desktop;
+image/jpeg=pix.desktop;libreoffice-draw.desktop;org.gimp.GIMP.desktop;com.github.PintaProject.Pinta.desktop;com.github.maoschanz.drawing.desktop;
+text/x-python=code.desktop;
+image/png=org.gimp.GIMP.desktop;libreoffice-draw.desktop;
+application/x-partial-download=xreader.desktop;libreoffice-startcenter.desktop;
+image/gif=mpv.desktop;vlc.desktop;
+text/markdown=firefox.desktop;
+video/mp4=mpv.desktop;
+application/octet-stream=mpv.desktop;
+
+[Default Applications]
+x-scheme-handler/fcade=fcade-quark.desktop
+application/epub+zip=org.pwmt.zathura.desktop
+text/html=librewolf.desktop
+x-scheme-handler/http=librewolf.desktop
+x-scheme-handler/https=librewolf.desktop
+x-scheme-handler/about=librewolf.desktop
+x-scheme-handler/unknown=librewolf.desktop
