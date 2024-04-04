@@ -1,20 +1,2 @@
-ungoogled-chromium	com.github.Eloston.UngoogledChromium	113.0.5672.126	stable	system
-Codecs	com.github.Eloston.UngoogledChromium.Codecs		stable	system
-Freedesktop Platform	org.freedesktop.Platform	22.08.11	22.08	system
-Mesa	org.freedesktop.Platform.GL.default	21.3.9	21.08	system
-Mesa	org.freedesktop.Platform.GL.default	22.2.4	22.08	system
-Mesa (Extra)	org.freedesktop.Platform.GL.default	22.2.4	22.08-extra	system
-nvidia-470-141-03	org.freedesktop.Platform.GL.nvidia-470-141-03		1.4	system
-nvidia-470-161-03	org.freedesktop.Platform.GL.nvidia-470-161-03		1.4	system
-nvidia-470-182-03	org.freedesktop.Platform.GL.nvidia-470-182-03		1.4	system
-Intel	org.freedesktop.Platform.VAAPI.Intel		21.08	system
-Intel	org.freedesktop.Platform.VAAPI.Intel		22.08	system
-openh264	org.freedesktop.Platform.openh264	2.1.0	2.0	system
-openh264	org.freedesktop.Platform.openh264	2.1.0	2.2.0	system
-Programa de manipulação de imagem do GNU	org.gimp.GIMP	2.10.32	stable	system
-GNOME Application Platform version 42	org.gnome.Platform		42	system
-GNOME Application Platform version 43	org.gnome.Platform		43	system
-Mint-Y-Dark Gtk Theme	org.gtk.Gtk3theme.Mint-Y-Dark		3.22	system
-Yaru Gtk Theme	org.gtk.Gtk3theme.Yaru		3.22	system
-KDE Application Platform	org.kde.Platform		5.15-21.08	system
-RetroArch	org.libretro.RetroArch	1.10.3	stable	system
+Flatseal	com.github.tchx84.Flatseal	2.1.0	stable	system
+Programa de manipulação de imagem do GNU	org.gimp.GIMP	2.10.36	stable	system
