@@ -2890,3 +2890,4 @@ git status
 dotfiles 
 clear
 dotfiles status 
+htop 
