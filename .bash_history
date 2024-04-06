@@ -2699,3 +2699,194 @@ ls
 cd Programs/
 ls
 cd ..
+dotfiles restore .bash_history
+dotfiles stat
+dotfiles status 
+dotfiles restore .newsboat/cache.db.lock
+dotfiles restore .newsboat/cache.db
+dotfiles restore .newsboat/error.log
+dotfiles restore .config/mpv/mpvHistory.log
+clear
+dotfiles status 
+syncthing 
+ls
+pwd
+vim .bash_history 
+dpkg --get-selections 
+git restore --help
+clear
+apt list --instaled > packages.txt
+apt list --instlaled > packages.txt
+apt list --installed > packages.txt
+ls
+vim packages.txt 
+dpkg --get-selections > dpkgpackages.txt
+vim dpkgpackages.txt 
+vim flatpakpackages.txt 
+flatpak list --user 
+flatpak list --all
+clear
+flatpak list --app
+flatpak list --app > flatpakpackages.txt
+vim flatpakpackages.txt 
+flatpak list --all
+vim flatpakpackages.txt 
+flatpak list --system 
+clear
+dotfiles add packages.txt flatpakpackages.txt dpkgpackages.txt 
+dotfiles commit -m "update packages list"
+ssh-add .ssh/testkey
+dotfiles push
+clear
+crontab -e
+flatpak list --app
+ls
+man cron
+clear
+ls
+clear
+ls
+clear
+ls
+newsboat 
+cd /tmp/
+ls
+cd ssh-gjZQ3OFWpTyi/
+ls
+cd ..
+dotfiles add /tmp/crontab.zfHF8E/crontab
+cd crontab.zfHF8E/
+ls
+cd ..
+cd
+clear
+cat crontab -e
+echo crontab -e
+grep crontab -e
+print crontab -e
+cat /tmp/crontab.zfHF8E/crontab 
+cat /tmp/crontab.zfHF8E/crontab > crontab.txt
+vim crontab.txt 
+dotfiles add crontab.txt 
+dotfiles commit -m "add crontab"
+ssh-add .ssh/testkey
+dotfiles push
+cd .local/bin
+ls
+cd ..
+cd
+clear
+cd .config/
+ls
+crontab -e
+neofetch 
+clear
+apt search nordic
+apt search nord
+apt search theme
+clear
+apt show arc-theme 
+apt list arc-theme 
+apt list papirus-icon-theme 
+apt show papirus-icon-theme 
+papirus-folders -v
+papirus-folders --version 
+vim .bash_history 
+apt list lxpolkit
+apt show lxpolkit 
+apt search dmz
+apt search liberation
+apt list fonts-liberation
+apt list fonts-font-awesome 
+clear
+cd .config/suckless/
+ls
+cd .config/suckless/
+ls
+cd dmenu/
+ls
+git remote -v
+apt list firefox
+cd .dwm/
+vim autostart.sh 
+cd
+apt list redshift-gtk 
+apt show redshift-gtk 
+clear
+apt list xfce4-goodies 
+xfce4-goodies --version
+clear
+apt list dialog 
+apt list mtools 
+apt list dosfstools 
+apt list acpi
+apt list acpid 
+apt list gvfs-backends 
+apt list policykit-1-gnome 
+apt list network-manager
+apt list network-manager-gnome 
+clear
+cd .config/suckless/dwm/
+vim config.
+ls
+vim config.h
+cd ..
+cd slstatus/
+ls
+vim config.h
+cd
+apt show pavucontrol
+apt show xfce4-volumed 
+apt show pipewire 
+apt show build-essential 
+apt show bluetooth
+bluetoothctl --version
+apt list bluetooth 
+apt search bluetooth
+vim install.sh
+mkdir debian
+mv install.sh debian/
+cd debian/
+git init
+git remote add origin git@github.com:kayodevital/debian.git
+ssh-add ~/.ssh/testkey
+git add install.sh 
+git commit -m "add install script"
+git push
+git push --set-upstream origin master 
+newsboat 
+vim debian/install.sh 
+LC_ALL=C.UTF-8 lscpu | grep Virtualization
+grep -E --color=auto 'vmx|svm|0xc0f' /proc/cpuinfo
+clear
+zgrep CONFIG_KVM= /proc/config.gz
+clear
+lsmod | grep kvm
+egrep -c '(vmx|svm)' /proc/cpuinfo
+clear
+sudo apt install qemu-kvm libvirt-daemon bridge-utils virt-manager 
+df -h
+clear
+sudo usermod -aG libvirt kayode 
+sudo usermod -aG kvm kayode
+uname -a
+egrep -c 'lm' /proc/cpuinfo 
+kvm-ok 
+sudo reboot 
+kvm-ok 
+virsh -c qemu://system list
+virsh -c qemu:///system list
+clear
+vim bash_h
+vim .bash_history 
+clear
+df -h
+clear
+sudo systemctl start libvirtd
+sudo systemctl enable libvirtd
+neofetch 
+htop 
+git status 
+dotfiles 
+clear
+dotfiles status 
