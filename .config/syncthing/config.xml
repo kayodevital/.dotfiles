@@ -1,5 +1,5 @@
 <configuration version="28">
-    <folder id="171mv-y0fvk" label="" path="/home/kayode/171mv-y0fvk" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
+    <folder id="digxz-tfeuk" label="Downloads" path="/home/kayode/Downloads" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
         <device id="AHXMVD7-4KO2X4F-OO7JH5L-UMCRRHE-WPSDUKU-GVEF6S3-EKZSUC3-VK3J4AJ" introducedBy=""></device>
         <device id="LJAC4GO-DEUNDQT-KLVTXW3-NA56K5B-MVWOBIP-BRDT7O6-WMIC4CT-DETWNAS" introducedBy=""></device>
@@ -21,7 +21,7 @@
         <useLargeBlocks>true</useLargeBlocks>
         <copyOwnershipFromParent>false</copyOwnershipFromParent>
     </folder>
-    <folder id="digxz-tfeuk" label="Downloads" path="/home/kayode/Downloads" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
+    <folder id="iakny-wzafu" label="home" path="/home/kayode" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
         <device id="AHXMVD7-4KO2X4F-OO7JH5L-UMCRRHE-WPSDUKU-GVEF6S3-EKZSUC3-VK3J4AJ" introducedBy=""></device>
         <device id="LJAC4GO-DEUNDQT-KLVTXW3-NA56K5B-MVWOBIP-BRDT7O6-WMIC4CT-DETWNAS" introducedBy=""></device>
@@ -109,28 +109,6 @@
         <useLargeBlocks>true</useLargeBlocks>
         <copyOwnershipFromParent>false</copyOwnershipFromParent>
     </folder>
-    <folder id="wxr8l-1028g" label="" path="/home/kayode/wxr8l-1028g" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
-        <filesystemType>basic</filesystemType>
-        <device id="AHXMVD7-4KO2X4F-OO7JH5L-UMCRRHE-WPSDUKU-GVEF6S3-EKZSUC3-VK3J4AJ" introducedBy=""></device>
-        <device id="LJAC4GO-DEUNDQT-KLVTXW3-NA56K5B-MVWOBIP-BRDT7O6-WMIC4CT-DETWNAS" introducedBy=""></device>
-        <minDiskFree unit="%">1</minDiskFree>
-        <versioning></versioning>
-        <copiers>0</copiers>
-        <pullerMaxPendingKiB>0</pullerMaxPendingKiB>
-        <hashers>0</hashers>
-        <order>random</order>
-        <ignoreDelete>false</ignoreDelete>
-        <scanProgressIntervalS>0</scanProgressIntervalS>
-        <pullerPauseS>0</pullerPauseS>
-        <maxConflicts>10</maxConflicts>
-        <disableSparseFiles>false</disableSparseFiles>
-        <disableTempIndexes>false</disableTempIndexes>
-        <paused>false</paused>
-        <weakHashThresholdPct>25</weakHashThresholdPct>
-        <markerName>.stfolder</markerName>
-        <useLargeBlocks>true</useLargeBlocks>
-        <copyOwnershipFromParent>false</copyOwnershipFromParent>
-    </folder>
     <device id="AHXMVD7-4KO2X4F-OO7JH5L-UMCRRHE-WPSDUKU-GVEF6S3-EKZSUC3-VK3J4AJ" name="kayode-Aspire-A515-54G" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
         <address>dynamic</address>
         <paused>false</paused>
@@ -146,6 +124,7 @@
         <maxSendKbps>0</maxSendKbps>
         <maxRecvKbps>0</maxRecvKbps>
         <ignoredFolder time="2024-04-04T19:19:46.132Z" id="l095p-6g7fk" label="Metrologia"></ignoredFolder>
+        <ignoredFolder time="2024-04-08T12:09:01.761Z" id="wxr8l-1028g" label=""></ignoredFolder>
         <maxRequestKiB>0</maxRequestKiB>
     </device>
     <gui enabled="true" tls="false" debugging="false">

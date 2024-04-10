@@ -1,7 +1,12 @@
 #!/bin/bash
 
+c=$(pgrep -l redshift | wc -l)
+
+if [ "$c" == 0 ]; then
+	/bin/redshift-gtk &
+fi
 nitrogen --restore &
-/bin/redshift-gtk &
+#/bin/redshift-gtk &
 #mintupdate-launcher &
 nm-applet &
 xfce4-timer-plugin &

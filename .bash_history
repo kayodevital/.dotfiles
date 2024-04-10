@@ -2891,3 +2891,354 @@ dotfiles
 clear
 dotfiles status 
 htop 
+vim .gitignore 
+dotfiles status 
+dotfiles add .gitignore 
+dotfiles status 
+dotfiles add -f .gitignore 
+dotfiles commit -m "add gitignore"
+ssh-add .ssh/testkey
+dotfiles push
+clear
+dotfiles status 
+rm .gitignore 
+dotfiles status 
+dotfiles config status.showUntrackedFiles no
+dotfiles status 
+dotfiles commit -a -m "update dotfiles"
+dotfiles status 
+dotfiles push
+vim .wget-hsts 
+cd .vim/
+ls
+cd autoload/
+ls
+vim plug.vim 
+cd 
+cd .config/nvim/
+ls
+cd
+cd .config/nvim/autoload/
+ls
+vim plug.vim 
+cd ..
+cd plugged/
+ls
+cd vim-css-color/
+ls
+cd
+cd .mozilla/
+ls
+cd firefox/
+ls
+cd 4ynre2vm.default/
+ls
+cd ..
+cd g81keyn5.default-release/
+ls
+dotfiles status 
+cd ..
+ls
+vim profiles.ini 
+man syncthing
+dotfiles status 
+cd
+cd .local/
+cd share/
+ls
+cd flatpak/
+ls
+cd repo/
+ls
+vim config 
+cd ..
+cd 
+dotfiles status 
+git commit -a -m "update dotfiles"
+dotfiles commit -a -m "update dotfiles"
+dotfiles push
+htop 
+dotfiles status 
+cd .librewolf/
+ls
+cd firefox-mpris/
+ls
+cd ..
+cd j5wbwjd9.default/
+ls
+cd ..
+cd native-messaging-hosts/
+ls
+cd ..
+cd j5wbwjd9.default/
+cd ..
+cd njhw8yf2.default-default/
+ls
+ls *.cfg
+cd ..
+ls
+cd njhw8yf2.default-default/
+du -h
+apt search nm-applet
+nm-applet --version
+nm-applet --help
+apt show network-manager
+xfce4-volumed --help
+xfce4-volumed --help-all
+xfce4-volumed -v
+apt show xfce4-volumed 
+apt search xfce4-volumed
+apt list xfce4-volumed
+cd
+./install.sh
+ls
+cd debian/
+./install.sh
+chmod +x install.sh 
+vim install.sh 
+cd
+dotfiles status 
+cd debian/
+git status 
+git add 
+git add install.sh 
+git commit -m "update script"
+git push
+cd
+dotfiles status 
+sudo reboot 
+systemctl reboot 
+apt show exa
+apt search exa
+apt list exa
+htop 
+vim .bashrc 
+apt search xfce4-volumed
+apt show xfce4-volumed 
+find dwm.desktop
+locate dwm.desktop
+cp /usr/share/xsessions/dwm.desktop .config/suckless/dwm/
+cd .config/suckless/dwm/
+git remote -v
+git push kv master 
+ssh-add ~/.ssh/testkey
+git push kv master 
+ls
+git add dwm.desktop 
+git push kv master 
+git commit -m "add dwm.desktop"
+git push kv master 
+apt search xfce4
+j
+apt show xfce4
+apt show xfce4-goodies 
+apt show network-manager-gnome 
+apt show network-manager-applet
+apt show network-manager-gnome -a
+apt show nm-applet
+nm-applet --version
+nm-applet --help
+apt show network-manager
+apt show xfce4
+apt show xfce4-goodies 
+clear
+ls
+cd ..
+cd slstatus/
+vim config.h
+cd ..
+ls
+vim .stignore 
+apt list acpi
+apt show acpi
+vim packages.txt 
+cd .config/suckless/slstatus/
+vim config.h
+cd components/
+vim battery.c 
+vim dpkgpackages.txt 
+vim packages.txt 
+cd Documentos/
+ls
+pandoc teste.md -o pdf.pdf
+zathura pdf.pdf 
+pandoc teste.md -t beamer -o pdf.pdf
+zathura pdf.pdf 
+man pandoc
+pandoc teste.md -t beamer -o pdf.pdf
+zathura pdf.pdf 
+vim teste.md 
+pandoc teste.md -o pdf.pdf
+zathura pdf.pdf 
+man pandoc 
+vim teste.md 
+zathura pdf.pdf 
+clear
+lls
+ls
+vim teste.md 
+zathura pdf.pdf 
+cd me549/
+ls
+vim atividade7.md 
+cd
+cd Documentos/
+vim teste.md 
+zathura pdf.pdf 
+vim teste.md 
+zathura pdf.pdf 
+cd me549/
+vim atividade7.md 
+cd ..
+cd Polímeros/
+ls
+vim seminario.md 
+cd ..
+man pandoc 
+vim teste.md 
+zathura pdf.pdf 
+vim teste.md 
+zathura pdf.pdf 
+man pandoc
+vim teste.md 
+zathura pdf.pdf 
+clear
+vim .bash_history 
+pgrep -l redshift
+lightdm-settings 
+sudo lightdm-settings 
+apt show lightdm
+man if
+pgrep -l redshift | wc -l
+echo /bin/redshift-gtk 
+pgrep -l redshift
+pgrep -l redshift | wc
+vim .config/suckless/slstatus/
+vim .config/suckless/slstatus/config.h
+pgrep -l redshift | wc -l
+vim .dwm/autostart.sh 
+cd .config/suckless/dwm/
+sudo make install 
+ls
+cd patches/
+ls
+vim dwm-autostart-20161205-bb3bd6f.diff 
+cd
+vim .dwm/autostart.sh 
+cd .config/suckless/dwm/
+sudo make install 
+cd
+vim .dwm/autostart.sh 
+cd .config/suckless/dwm/
+sudo make install 
+pgrep -l redshift
+sudo make install 
+cd
+cd .config/sxhkd/
+vim sxhkdrc 
+pkill redshift
+redshift -x
+vim sxhkdrc 
+pgrep -l redshift | wc -l == 0 ?
+pgrep -l redshift | wc -l
+if $[ pgrep -l redshift | wc -l == 0 ]; then /bin/redshift-gtk; quit; Z
+vim redshift.sh
+chmod +x redshift.sh 
+vim redshift.sh 
+vim .dwm/autostart.sh 
+rm redshift.sh 
+ls
+vim .config/redshift.conf 
+newsboat 
+systemctl reboot
+source .config/redshift.conf 
+cd debian/
+vim install.sh 
+git add install.sh 
+git commit -m "update script"
+git push
+cd
+vim .profile 
+cd debian/
+vim in
+vim install.sh 
+cd .config/suckless/dwm/
+ls
+cd .git/
+ls
+cd branches/
+ls
+cd ..
+cd hooks/
+ls
+cd ..
+cd info/
+ls
+cd ..
+cd logs/
+ls
+cd refs/
+ls
+cd heads/
+ls
+cd ..
+cd remotes/
+ls
+cd ..
+clear
+git add .git/ kv master
+git add .git/*
+git commit -m "add .git"
+git add dwm-cropwindows-20170709-ceac8c9.diff 
+git commit -m "add crop windows"
+git push kv master 
+cd ..
+cd st/
+git add .git/*
+git commit -m "add .git"
+git push kv master 
+cd ..
+cd slstatus/
+git add .git/*
+git commit -m "add .git"
+git push kv master 
+cd ..
+ls
+apt show volumeicon-alsa 
+apt list volumeicon-alsa 
+apt list pulseaudio
+apt list alsa-utils 
+apt list pavucontrol
+amixer 
+amixer --help
+amixer -v
+apt list amixer
+apt show amixer
+apt show alsa-utils 
+syncthing 
+cd .config/gtk-2.0/
+ls
+vim gtkfilechooser.ini 
+cd ..
+cd gtk-3.0/
+ls
+vim settings.ini 
+cd ..
+cd qt5ct/
+ls
+cd
+vim .gtkrc-2.0 
+cd .config/gtk-2.0/
+ls
+cd ..
+ls
+cd 
+ls
+cd /etc/lightdm/
+vi
+ls
+cd
+apt show pulseaudio
+apt list pulseaudio
+apt list volumeicon-alsa 
+apt list pamixer
