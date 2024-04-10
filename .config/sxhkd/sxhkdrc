@@ -4,3 +4,10 @@ super + shift + r
 	/bin/redshift-gtk 
 super + shift + x
 	pkill redshift-gtk 
+# Change volume, chunky
+super + shift + k
+    ~/bin/changevolume up
+super + shift + j
+	~/bin/changevolume down
+super + shift + m
+	~/bin/changevolume mute
