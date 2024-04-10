@@ -66,6 +66,7 @@ bluez-cups					install
 bluez-obexd					install
 bluez-tools					install
 bolt						install
+bridge-utils					install
 brltty						install
 bsdmainutils					install
 bsdutils					install
@@ -113,6 +114,7 @@ cpio						install
 cpp						install
 cpp-8						install
 cpp-9						install
+cpu-checker					install
 cracklib-runtime				install
 crda						install
 cron						install
@@ -423,11 +425,15 @@ gir1.2-gmenu-3.0:amd64				install
 gir1.2-gst-plugins-base-1.0:amd64		install
 gir1.2-gstreamer-1.0:amd64			install
 gir1.2-gtk-3.0:amd64				install
+gir1.2-gtk-vnc-2.0:amd64			install
+gir1.2-gtksource-4:amd64			install
 gir1.2-gtop-2.0:amd64				install
 gir1.2-gudev-1.0:amd64				install
 gir1.2-ibus-1.0:amd64				install
 gir1.2-javascriptcoregtk-4.0:amd64		install
 gir1.2-json-1.0:amd64				install
+gir1.2-libosinfo-1.0:amd64			install
+gir1.2-libvirt-glib-1.0:amd64			install
 gir1.2-nm-1.0:amd64				install
 gir1.2-notify-0.7:amd64				install
 gir1.2-packagekitglib-1.0			install
@@ -435,6 +441,8 @@ gir1.2-pango-1.0:amd64				install
 gir1.2-polkit-1.0				install
 gir1.2-secret-1:amd64				install
 gir1.2-soup-2.4:amd64				install
+gir1.2-spiceclientglib-2.0:amd64		install
+gir1.2-spiceclientgtk-3.0:amd64			install
 gir1.2-udisks-2.0:amd64				install
 gir1.2-upowerglib-1.0:amd64			install
 gir1.2-vte-2.91:amd64				install
@@ -595,6 +603,8 @@ iptables					install
 iputils-arping					install
 iputils-ping					install
 iputils-tracepath				install
+ipxe-qemu					install
+ipxe-qemu-256k-compat-efi-roms			install
 irqbalance					install
 isc-dhcp-client					install
 isc-dhcp-common					install
@@ -745,6 +755,7 @@ libc6-dbg:amd64					install
 libc6-dev:amd64					install
 libc6-i386					install
 libcaca0:amd64					install
+libcacard0:amd64				install
 libcaf-openmpi-3:amd64				install
 libcairo-gobject-perl				install
 libcairo-gobject2:amd64				install
@@ -955,6 +966,7 @@ libfakeroot:amd64				install
 libfastjson4:amd64				install
 libfcgi-perl					install
 libfdisk1:amd64					install
+libfdt1:amd64					install
 libffi-dev:amd64				install
 libffi7:amd64					install
 libffi7:i386					install
@@ -1076,6 +1088,8 @@ libgnutls30:amd64				install
 libgoa-1.0-0b:amd64				install
 libgoa-1.0-common				install
 libgomp1:amd64					install
+libgovirt-common				install
+libgovirt2:amd64				install
 libgpg-error-l10n				install
 libgpg-error0:amd64				install
 libgpg-error0:i386				install
@@ -1109,6 +1123,7 @@ libgstreamer1.0-0:amd64				install
 libgtk-3-0:amd64				install
 libgtk-3-bin					install
 libgtk-3-common					install
+libgtk-vnc-2.0-0:amd64				install
 libgtk2-perl					install
 libgtk2.0-0:amd64				install
 libgtk2.0-bin					install
@@ -1129,6 +1144,7 @@ libgupnp-igd-1.0-4:amd64			install
 libgusb2:amd64					install
 libgutenprint-common				install
 libgutenprint9					install
+libgvnc-1.0-0:amd64				install
 libgweather-3-16:amd64				install
 libgweather-common				install
 libgxps2:amd64					install
@@ -1196,6 +1212,7 @@ libipc-run-perl					install
 libipc-shareable-perl				install
 libipc-system-simple-perl			install
 libisc-export1105:amd64				install
+libiscsi7:amd64					install
 libisl22:amd64					install
 libitm1:amd64					install
 libiw30:amd64					install
@@ -1389,6 +1406,7 @@ libnpth0:amd64					install
 libnspr4:amd64					install
 libnss-mdns:amd64				install
 libnss-myhostname:amd64				install
+libnss-mymachines:amd64				install
 libnss-systemd:amd64				install
 libnss3:amd64					install
 libntfs-3g883					install
@@ -1433,6 +1451,7 @@ libopts25:amd64					install
 libopus0:amd64					install
 liborc-0.4-0:amd64				install
 liborcus-0.15-0:amd64				install
+libosinfo-1.0-0:amd64				install
 libosmesa6:amd64				install
 libostree-1-1:amd64				install
 libotf0:amd64					install
@@ -1482,6 +1501,8 @@ libperl5.30:amd64				install
 libperlio-gzip-perl				install
 libpfm4:amd64					install
 libpgm-5.2-0:amd64				install
+libphodav-2.0-0:amd64				install
+libphodav-2.0-common				install
 libphonenumber7:amd64				install
 libpipeline1:amd64				install
 libpixman-1-0:amd64				install
@@ -1490,6 +1511,7 @@ libplacebo7:amd64				install
 libplist3:amd64					install
 libplot2c2:amd64				install
 libplymouth5:amd64				install
+libpmem1:amd64					install
 libpmix2:amd64					install
 libpng-dev:amd64				install
 libpng-tools					install
@@ -1563,9 +1585,11 @@ libqt5widgets5:amd64				install
 libqt5x11extras5:amd64				install
 libqt5xml5:amd64				install
 libquadmath0:amd64				install
+librados2					install
 libraptor2-0:amd64				install
 librasqal3:amd64				install
 libraw1394-11:amd64				install
+librbd1						install
 librdf0:amd64					install
 librdmacm1:amd64				install
 libre2-5:amd64					install
@@ -1665,6 +1689,7 @@ libsidplay2					install
 libsigc++-2.0-0v5:amd64				install
 libsigsegv2:amd64				install
 libslang2:amd64					install
+libslirp0:amd64					install
 libsm6:amd64					install
 libsmartcols1:amd64				install
 libsmbclient:amd64				install
@@ -1690,6 +1715,9 @@ libspectre1:amd64				install
 libspeechd2:amd64				install
 libspeex1:amd64					install
 libspeexdsp1:amd64				install
+libspice-client-glib-2.0-8:amd64		install
+libspice-client-gtk-3.0-5:amd64			install
+libspice-server1:amd64				install
 libsqlite3-0:amd64				install
 libsratom-0-0:amd64				install
 libsrt1:amd64					install
@@ -1801,6 +1829,8 @@ liburl-dispatcher1:amd64			install
 libusageenvironment3:amd64			install
 libusb-1.0-0:amd64				install
 libusbmuxd6:amd64				install
+libusbredirhost1:amd64				install
+libusbredirparser1:amd64			install
 libusrsctp1:amd64				install
 libutempter0:amd64				install
 libutf8proc2:amd64				install
@@ -1818,6 +1848,15 @@ libvariable-magic-perl				install
 libvdpau1:amd64					install
 libvdpau1:i386					deinstall
 libvidstab1.1:amd64				install
+libvirglrenderer1:amd64				install
+libvirt-clients					install
+libvirt-daemon					install
+libvirt-daemon-driver-qemu			install
+libvirt-daemon-driver-storage-rbd		install
+libvirt-daemon-system				install
+libvirt-daemon-system-systemd			install
+libvirt-glib-1.0-0:amd64			install
+libvirt0:amd64					install
 libvisio-0.1-1:amd64				install
 libvisual-0.4-0:amd64				install
 libvisual-0.4-plugins:amd64			install
@@ -1958,6 +1997,7 @@ libxml-twig-perl				install
 libxml-writer-perl				install
 libxml-xpathengine-perl				install
 libxml2:amd64					install
+libxml2-utils					install
 libxmlb1:amd64					install
 libxmlb2:amd64					install
 libxmlsec1:amd64				install
@@ -2205,6 +2245,7 @@ mousetweaks					install
 mpi-default-bin					install
 mpv						install
 mscompress					install
+msr-tools					install
 mtools						install
 mtr-tiny					install
 mysql-common					install
@@ -2269,6 +2310,8 @@ openssl						install
 openvpn						install
 orca						deinstall
 os-prober					install
+osinfo-db					install
+ovmf						install
 p11-kit						install
 p11-kit-modules:amd64				install
 p7zip						install
@@ -2398,6 +2441,8 @@ python3-lazr.restfulclient			install
 python3-lazr.uri				install
 python3-ldb					install
 python3-lib2to3					install
+python3-libvirt					install
+python3-libxml2:amd64				install
 python3-louis					install
 python3-lxml:amd64				install
 python3-mako					install
@@ -2479,6 +2524,13 @@ python3.9-examples				install
 python3.9-minimal				install
 python3.9-venv					install
 qbittorrent					install
+qemu-block-extra:amd64				install
+qemu-kvm					install
+qemu-system-common				install
+qemu-system-data				install
+qemu-system-gui:amd64				install
+qemu-system-x86					install
+qemu-utils					install
 qt5-gtk-platformtheme:amd64			install
 qt5-gtk2-platformtheme:amd64			install
 qt5-style-plugin-cleanlooks:amd64		install
@@ -2527,6 +2579,7 @@ sane-utils					install
 sassc						install
 sbsigntool					install
 screen-resolution-extra				install
+seabios						install
 seahorse					install
 secureboot-db					install
 sed						install
@@ -2535,6 +2588,7 @@ session-migration				install
 sgml-base					install
 sgml-data					install
 shared-mime-info				install
+sharutils					install
 shim-signed					install
 simple-scan					install
 slick-greeter					install
@@ -2543,6 +2597,7 @@ sound-theme-freedesktop				install
 speech-dispatcher				install
 speech-dispatcher-audio-plugins:amd64		install
 speech-dispatcher-espeak-ng			install
+spice-client-glib-usb-acl-helper		install
 sqlite3						install
 squashfs-tools					install
 ssl-cert					install
@@ -2562,6 +2617,7 @@ system-config-printer-common			deinstall
 system-config-printer-udev			install
 system-tools-backends				install
 systemd						install
+systemd-container				install
 systemd-coredump				install
 systemd-sysv					install
 systemd-timesyncd				deinstall
@@ -2683,6 +2739,9 @@ vim						install
 vim-common					install
 vim-runtime					install
 vim-tiny					install
+virt-manager					install
+virt-viewer					install
+virtinst					install
 vlc						install
 vlc-bin						install
 vlc-data					install
