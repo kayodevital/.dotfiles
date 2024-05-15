@@ -117,12 +117,26 @@ if ! shopt -oq posix; then
   fi
 fi
 alias zathura="devour zathura"
-#alias sxiv="devour sxiv"
+alias sxiv="devour sxiv"
 alias vim="nvim"
 alias mpv="devour mpv"
 alias gimp="devour flatpak run org.gimp.GIMP"
+alias steam="devour flatpak run com.valvesoftware.Steam"
 alias ovito="cd ovito-basic-3.9.4-x86_64/bin && devour ./ovito"
+alias scidavis="devour flatpak run net.sourceforge.scidavis"
 alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
+alias doom='cd Doom/DOOM/ && devour doom DOOM.WAD'
+apt() { 
+  command nala "$@"
+}
+sudo() {
+  if [ "$1" = "apt" ]; then
+    shift
+    command sudo nala "$@"
+  else
+    command sudo "$@"
+  fi
+}
 set -o vi
 source /usr/share/bash-completion/completions/git
 __git_complete dotfiles __git_main
