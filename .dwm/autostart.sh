@@ -1,10 +1,10 @@
 #!/bin/bash
 
-#rc=$(pgrep -l redshift | wc -l)
+rc=$(pgrep -l redshift-gtk | wc -l)
 
-#if [ "$c" == 0 ]; then
+if [ "$rc" == 0 ]; then
 /bin/redshift-gtk &
-#fi
+fi
 nitrogen --restore &
 #/bin/redshift-gtk &
 #mintupdate-launcher &
@@ -12,11 +12,10 @@ nm-applet &
 #xfce4-timer-plugin &
 slstatus &
 xfce4-power-manager &
-#vc=$(pgrep -l volumeicon | wc -l)
+vc=$(pgrep -l volumeicon | wc -l)
 
-#if [ "$c" == 0 ]; then
+if [ "$vc" == 0 ]; then
 volumeicon &
-#fi
-fixfce4-volumed &
+fi
 xset r rate 300 50 &
 sxhkd &
