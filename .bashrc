@@ -126,17 +126,18 @@ alias ovito="cd ovito-basic-3.9.4-x86_64/bin && devour ./ovito"
 alias scidavis="devour flatpak run net.sourceforge.scidavis"
 alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
 alias doom='cd Doom/DOOM/ && devour doom DOOM.WAD'
-apt() { 
-  command nala "$@"
-}
-sudo() {
-  if [ "$1" = "apt" ]; then
-    shift
-    command sudo nala "$@"
-  else
-    command sudo "$@"
-  fi
-}
+alias timeshift-gtk='devour sudo timeshift-gtk'
+#apt() { 
+  #command nala "$@"
+#}
+#sudo() {
+  #if [ "$1" = "apt" ]; then
+    #shift
+    #command sudo nala "$@"
+  #else
+    #command sudo "$@"
+  #fi
+#}
 set -o vi
 source /usr/share/bash-completion/completions/git
 __git_complete dotfiles __git_main
