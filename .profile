@@ -26,3 +26,4 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 . "$HOME/.cargo/env"
+export BIB="$HOME/Documentos/bib.bib"

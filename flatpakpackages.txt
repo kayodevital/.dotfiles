@@ -1,2 +1,2 @@
-Flatseal	com.github.tchx84.Flatseal	2.1.0	stable	system
-Programa de manipulação de imagem do GNU	org.gimp.GIMP	2.10.36	stable	system
+SciDAVis	net.sourceforge.scidavis	2.9.2	stable	system
+Programa de manipulação de imagem do GNU	org.gimp.GIMP	2.10.38	stable	system
