@@ -4,3 +4,5 @@
 	email = kayode.vital@tutanota.com
 [core]
 	editor = vim
+[pull]
+	rebase = false

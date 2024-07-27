@@ -126,18 +126,25 @@ alias ovito="cd ovito-basic-3.9.4-x86_64/bin && devour ./ovito"
 alias scidavis="devour flatpak run net.sourceforge.scidavis"
 alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
 alias doom='cd Doom/DOOM/ && devour doom DOOM.WAD'
+alias dsda-doom='devour dsda-doom'
 alias timeshift-gtk='devour sudo timeshift-gtk'
-#apt() { 
-  #command nala "$@"
-#}
-#sudo() {
-  #if [ "$1" = "apt" ]; then
-    #shift
-    #command sudo nala "$@"
-  #else
-    #command sudo "$@"
-  #fi
-#}
+alias retroarch='devour flatpak run org.libretro.RetroArch'
+alias heroic='devour flatpak run com.heroicgameslauncher.hgl'
+alias tsp='ts'
+function yta() {
+    mpv --ytdl-format=bestaudio ytdl://ytsearch:"$*"
+}
+apt() { 
+  command nala "$@"
+}
+sudo() {
+  if [ "$1" = "apt" ]; then
+    shift
+    command sudo nala "$@"
+  else
+    command sudo "$@"
+  fi
+}
 set -o vi
 source /usr/share/bash-completion/completions/git
 __git_complete dotfiles __git_main
