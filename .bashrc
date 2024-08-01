@@ -130,6 +130,7 @@ alias dsda-doom='devour dsda-doom'
 alias timeshift-gtk='devour sudo timeshift-gtk'
 alias retroarch='devour flatpak run org.libretro.RetroArch'
 alias heroic='devour flatpak run com.heroicgameslauncher.hgl'
+alias steam='devour flatpak run com.valvesoftware.Steam'
 alias tsp='ts'
 function yta() {
     mpv --ytdl-format=bestaudio ytdl://ytsearch:"$*"
