@@ -26,6 +26,8 @@ fi
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
-. "$HOME/.cargo/env"
+#. "$HOME/.cargo/env"
 export BIB="$HOME/Documentos/bib.bib"
 export TERMINAL="st"
+
+if [ -e /home/kayode/.nix-profile/etc/profile.d/nix.sh ]; then . /home/kayode/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
