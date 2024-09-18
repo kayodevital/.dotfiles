@@ -118,6 +118,7 @@ if ! shopt -oq posix; then
 fi
 alias zathura="devour zathura"
 alias sxiv="devour sxiv"
+alias nsxiv="devour nsxiv"
 alias vim="nvim"
 alias mpv="devour mpv"
 alias gimp="devour flatpak run org.gimp.GIMP"
@@ -131,21 +132,25 @@ alias timeshift-gtk='devour sudo timeshift-gtk'
 alias retroarch='devour flatpak run org.libretro.RetroArch'
 alias heroic='devour flatpak run com.heroicgameslauncher.hgl'
 alias steam='devour flatpak run com.valvesoftware.Steam'
+alias flightgear='devour flatpak run org.flightgear.FlightGear'
 alias tsp='ts'
+alias syncthing='devour syncthing'
 function yta() {
     mpv --ytdl-format=bestaudio ytdl://ytsearch:"$*"
 }
-apt() { 
-  command nala "$@"
-}
-sudo() {
-  if [ "$1" = "apt" ]; then
-    shift
-    command sudo nala "$@"
-  else
-    command sudo "$@"
-  fi
-}
+#apt() { 
+#  command nala "$@"
+#}
+#sudo() {
+#  if [ "$1" = "apt" ]; then
+#    shift
+#    command sudo nala "$@"
+#  else
+#    command sudo "$@"
+#  fi
+#}
 set -o vi
 source /usr/share/bash-completion/completions/git
 __git_complete dotfiles __git_main
+export BIB="$HOME/Documentos/bib.bib"
+export XDG_DATA_DIRS=$HOME/.nix-profile/share/:$HOME/.share:"${XDG_DATA_DIRS:-/usr/share/}"
