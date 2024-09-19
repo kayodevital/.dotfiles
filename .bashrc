@@ -154,4 +154,3 @@ source /usr/share/bash-completion/completions/git
 __git_complete dotfiles __git_main
 export BIB="$HOME/Documentos/bib.bib"
 export XDG_DATA_DIRS=$HOME/.nix-profile/share/:$HOME/.share:"${XDG_DATA_DIRS:-/usr/share/}"
-export LC_ALL=C.utf8
