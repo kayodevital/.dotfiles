@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/home/kayode/.config/nvim'
+let g:netrw_dirhist_9='/etc/default/grub-btrfs'
+let g:netrw_dirhist_8='/home/kayode/Downloads/.stfolder'
+let g:netrw_dirhist_7='/home/kayode/.config/mpv'
+let g:netrw_dirhist_6='/home/kayode/.config/mpv/watch_later'
+let g:netrw_dirhist_5='/home/kayode/.config/nvim'
+let g:netrw_dirhist_4='/home/kayode/.config/gtk-3.0'
+let g:netrw_dirhist_3='/home/kayode/.config/suckless/slstatus'
+let g:netrw_dirhist_2='/usr/share/icons/default'
+let g:netrw_dirhist_1='/home/kayode/.config/sxhkd'
