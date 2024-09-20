@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/home/kayode/.config/sxhkd'
+let g:netrw_dirhist_7='/home/kayode/.config/suckless/slstatus'
+let g:netrw_dirhist_6='/home/kayode/.config/nitrogen'
+let g:netrw_dirhist_5='/home/kayode/.config/suckless/slstatus'
+let g:netrw_dirhist_4='/home/kayode/.config/suckless/dwm'
+let g:netrw_dirhist_3='/home/kayode/Documentos/me549/tutorial1'
+let g:netrw_dirhist_2='/home/kayode/.w3m/keymap'
+let g:netrw_dirhist_1='/home/kayode/.config/suckless/slstatus'
