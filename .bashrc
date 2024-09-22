@@ -135,6 +135,7 @@ alias steam='devour flatpak run com.valvesoftware.Steam'
 alias flightgear='devour flatpak run org.flightgear.FlightGear'
 alias tsp='ts'
 alias syncthing='devour syncthing'
+alias gpt4all='devour flatpak run io.gpt4all.gpt4all'
 function yta() {
     mpv --ytdl-format=bestaudio ytdl://ytsearch:"$*"
 }
