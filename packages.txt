@@ -3054,6 +3054,7 @@ xorg-dev/stable,stable,stable,stable,stable,stable,stable,stable,now 1:7.7+23 al
 xorg-docs-core/stable,stable,stable,stable,stable,stable,stable,stable,now 1:1.7.1-1.2 all [installed,automatic]
 xorg-sgml-doctools/stable,stable,stable,stable,stable,stable,stable,stable,now 1:1.11-1.1 all [installed,automatic]
 xorg/stable,stable,stable,stable,now 1:7.7+23 amd64 [installed]
+xsel/stable,stable,stable,stable,now 1.2.0+git9bfc13d.20180109-4 amd64 [installed]
 xserver-common/stable,stable,stable-security,stable-security,stable,stable,stable,stable,stable,stable,now 2:21.1.7-3+deb12u7 all [installed,automatic]
 xserver-xorg-core/stable,stable-security,stable,stable,stable,now 2:21.1.7-3+deb12u7 amd64 [installed]
 xserver-xorg-dev/stable,stable-security,stable,stable,stable,now 2:21.1.7-3+deb12u7 amd64 [installed,automatic]

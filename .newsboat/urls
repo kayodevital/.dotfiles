@@ -31,6 +31,7 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UC_Y1v8Z_WV-H5n-ebZyZoJQ
 https://www.youtube.com/feeds/videos.xml?channel_id=UCSp9JYcUHrU7WOAMOVI-vsw
 https://www.youtube.com/feeds/videos.xml?channel_id=UCtUbO6rBht0daVIOGML3c8w
 https://www.youtube.com/feeds/videos.xml?channel_id=UCXjBvSgcNWnP85PF25b9N_w
+https://www.youtube.com/feeds/videos.xml?channel_id=UCZiYbVptd3PVPf4f6eR6UaQ
 https://www.ufpe.br/inicio/-/asset_publisher/dlhi8nsrz4hK/rss
 https://jc.ne10.uol.com.br/ultimas/rss.xml
 https://www.gazetadopovo.com.br/feed/rss/republica.xml
@@ -49,15 +50,13 @@ https://www.gazetadopovo.com.br/feed/rss/gazz-conecta.xml
 #https://www.gazetadopovo.com.br/feed/rss/mais-esportes.xml
 #https://www.gazetadopovo.com.br/feed/rss//vozes/filipe-figueiredo.xml
 https://www.gazetadopovo.com.br/feed/rss/vozes/paulo-cruz.xml
+https://www.debian.org/News/news
 https://www.lukesmith.xyz/rss.xml
 #https://nitter.poast.org/CTTU_Recife/rss
-https://www.youtube.com/feeds/videos.xml?channel_id=UCZiYbVptd3PVPf4f6eR6UaQ
-#https://github.com/LukeSmithxyz.atom
-#https://github.com/libretro.atom
-#https://gitlab.freedesktop.org/xorg/lib/libxft.atom
-#https://github.com/woodruffw.atom
+https://github.com/LukeSmithxyz/voidrice/commits.atom
+https://github.com/libretro/retroarch/releases.atom
+https://gitlab.freedesktop.org/xorg/lib/libxft.atom
 #https://github.com/lammps.atom
-https://www.debian.org/News/news
 https://github.com/hakavlad/nohang/releases.atom
 https://github.com/hakavlad/memavaild/releases.atom
 https://github.com/hakavlad/prelockd/releases.atom

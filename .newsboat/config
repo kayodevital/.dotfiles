@@ -1,6 +1,6 @@
 external-url-viewer "urlscan -dc -r 'linkhandler {}'"
 auto-reload yes
-reload-time 5
+reload-time 15
 reload-threads 70
 notify-beep yes
 notify-screen yes
@@ -27,16 +27,16 @@ bind-key a toggle-article-read
 bind-key U show-urls
 
 #adapta
-color listfocus         color192 default
-color listfocus_unread  color155 default
+#color listfocus         color192 default
+#color listfocus_unread  color155 default
 #color info              color35 default reverse 
 
 #nord
-color background          color236   default
+#color background          color236   default
 color listnormal          color248   default
 #color listnormal_unread   color6     default
-#color listfocus           color236   color12
-#color listfocus_unread    color15    color12
+color listfocus           color236   color12
+color listfocus_unread    color15    color12
 color info                color248   color236
 #color article             color248   default
 

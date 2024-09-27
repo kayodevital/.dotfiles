@@ -3077,6 +3077,7 @@ xorg-dev					install
 xorg-docs-core					install
 xorg-sgml-doctools				install
 xpdf						deinstall
+xsel						install
 xserver-common					install
 xserver-xorg					install
 xserver-xorg-core				install
