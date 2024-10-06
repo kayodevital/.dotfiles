@@ -18,6 +18,7 @@ application/vnd.openxmlformats-officedocument.wordprocessingml.document=org.pwmt
 application/zip=sqlitebrowser.desktop;
 image/tiff=org.gimp.GIMP.desktop;
 image/x-hdr=img.desktop;
+application/illustrator=org.pwmt.zathura-pdf-poppler.desktop;
 
 [Default Applications]
 x-scheme-handler/fcade=fcade-quark.desktop
@@ -30,3 +31,8 @@ x-scheme-handler/unknown=librewolf.desktop
 inode/directory=xfce4-file-manager.desktop
 x-scheme-handler/trash=xfce4-file-manager.desktop
 image/jpeg=img.desktop
+application/illustrator=org.pwmt.zathura-pdf-poppler.desktop
+application/pdf=org.pwmt.zathura-pdf-poppler.desktop
+
+[Removed Associations]
+application/pdf=userapp-zathura-NECJU2.desktop;userapp-zathura-8IRQU2.desktop;
