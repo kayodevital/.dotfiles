@@ -19,4 +19,8 @@ volumeicon &
 fi
 xset r rate 300 50 &
 sxhkd &
-flameshot &
+kc=$(pgrep -l kdeconnect-app | wc -l)
+if [ "$kc" == 0 ]; then
+kdeconnect-app &
+pkill kdeconnect-app
+fi
