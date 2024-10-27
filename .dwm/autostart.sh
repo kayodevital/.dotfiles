@@ -23,4 +23,5 @@ flameshot &
 kc=$(pgrep -l kdeconnect-app | wc -l)
 if [ "$kc" == 0 ]; then
 kdeconnect-app &
+syncthing &
 fi
