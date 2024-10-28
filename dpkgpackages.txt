@@ -56,7 +56,9 @@ busybox						install
 bzip2						install
 ca-certificates					install
 ca-certificates-java				install
+cabextract					install
 caca-utils					install
+calendar					deinstall
 chafa						install
 chktex						install
 cm-super					install
@@ -370,6 +372,7 @@ gsfonts						install
 gsfonts-x11					deinstall
 gsl-bin						install
 gstreamer1.0-gl:amd64				install
+gstreamer1.0-gtk3:amd64				install
 gstreamer1.0-libav:amd64			install
 gstreamer1.0-plugins-bad:amd64			install
 gstreamer1.0-plugins-base:amd64			install
@@ -1232,6 +1235,8 @@ liblsan0:amd64					install
 libltc11:amd64					install
 libltdl-dev:amd64				install
 libltdl7:amd64					install
+liblua5.1-0:amd64				install
+liblua5.1-0-dev:amd64				install
 liblua5.2-0:amd64				install
 liblua5.3-0:amd64				install
 liblua5.4-0:amd64				install
@@ -1304,6 +1309,7 @@ libmpg123-0:amd64				install
 libmplex2-2.1-0:amd64				install
 libmro-compat-perl				install
 libmsgpackc2:amd64				install
+libmspack0:amd64				install
 libmspub-0.1-1:amd64				install
 libmtdev1:amd64					install
 libmtp-common					install
@@ -1315,6 +1321,7 @@ libmysofa1:amd64				install
 libmythes-1.2-0:amd64				install
 libnamespace-autoclean-perl			install
 libnamespace-clean-perl				install
+libncurses-dev:amd64				install
 libncurses6:amd64				install
 libncursesw6:amd64				install
 libndp0:amd64					install
@@ -1540,6 +1547,7 @@ libraw1394-11:amd64				install
 librdf0:amd64					install
 libre-engine-re2-perl:amd64			install
 libre2-9:amd64					install
+libreadline-dev:amd64				install
 libreadline8:amd64				install
 libreadonly-perl				install
 libref-util-perl				install
@@ -1557,8 +1565,10 @@ libreoffice-calc				install
 libreoffice-common				install
 libreoffice-core				install
 libreoffice-draw				install
+libreoffice-gtk3				install
 libreoffice-impress				install
 libreoffice-java-common				install
+libreoffice-l10n-pt-br				install
 libreoffice-math				install
 libreoffice-nlpsolver				install
 libreoffice-report-builder			install
@@ -1750,6 +1760,7 @@ libtirpc3:amd64					install
 libtk8.6:amd64					install
 libtommath1:amd64				install
 libtool						install
+libtool-bin					install
 libtorrent-rasterbar2.0:amd64			install
 libtree-sitter-dev:amd64			install
 libtree-sitter0:amd64				install
@@ -2029,7 +2040,12 @@ logsave						install
 lp-solve					install
 lsb-release					install
 lsof						install
+lua-any						install
 lua-luv:amd64					install
+lua-sec:amd64					install
+lua-socket:amd64				install
+lua5.1						install
+luarocks					install
 lxappearance					install
 lxde-icon-theme					install
 lxde-settings-daemon				install
@@ -2069,6 +2085,7 @@ mysql-common					install
 nala						install
 nano						install
 nautilus					deinstall
+ncal						install
 ncurses-base					install
 ncurses-bin					install
 ncurses-term					install
@@ -2793,6 +2810,7 @@ tracker						deinstall
 tracker-extract					deinstall
 tracker-miner-fs				deinstall
 tree						install
+ttf-mscorefonts-installer			install
 tumbler-common					deinstall
 tzdata						install
 ucf						install
