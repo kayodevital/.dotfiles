@@ -159,6 +159,8 @@ eslint						install
 exa						install
 exfatprogs					install
 exo-utils					install
+extrepo						install
+extrepo-offline-data				install
 fakeroot					install
 fdisk						install
 feynmf						install
@@ -650,6 +652,7 @@ libcrypt-dev:amd64				install
 libcrypt-rc4-perl				install
 libcrypt1:amd64					install
 libcryptsetup12:amd64				install
+libcryptx-perl					install
 libctf-nobfd0:amd64				install
 libctf0:amd64					install
 libcups2:amd64					install
