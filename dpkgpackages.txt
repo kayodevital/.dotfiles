@@ -141,7 +141,6 @@ dosfstools					install
 dpkg						install
 dpkg-dev					install
 dput						install
-dsda-doom					install
 dunst						install
 dvidvi						install
 dvipng						install
@@ -179,6 +178,8 @@ firmware-realtek				install
 firmware-sof-signed				install
 flameshot					install
 flatpak						install
+fluid-soundfont-gm				install
+fluidsynth					install
 fontconfig					install
 fontconfig-config				install
 fonts-adf-accanthis				install
@@ -307,7 +308,7 @@ fpc						install
 fpc-3.2.2					install
 fpc-source-3.2.2				install
 fragmaster					install
-freedoom					install
+freedoom					deinstall
 fuse3						install
 g++						install
 g++-12						install
@@ -330,6 +331,7 @@ gir1.2-gtk-2.0:amd64				install
 gir1.2-gtk-3.0:amd64				install
 gir1.2-gtk-4.0:amd64				install
 gir1.2-harfbuzz-0.0:amd64			install
+gir1.2-ibus-1.0:amd64				install
 gir1.2-notify-0.7:amd64				install
 gir1.2-pango-1.0:amd64				install
 git						install
@@ -544,6 +546,7 @@ libayatana-ido3-0.4-0:amd64			install
 libayatana-indicator3-7:amd64			install
 libb-hooks-endofscope-perl			install
 libb-hooks-op-check-perl:amd64			install
+libb2-1:amd64					install
 libbase-java					install
 libbatik-java					install
 libbcmail-java					install
@@ -685,6 +688,7 @@ libdav1d-dev:amd64				install
 libdav1d6:amd64					install
 libdb5.3:amd64					install
 libdbus-1-3:amd64				install
+libdbus-1-dev:amd64				install
 libdbus-glib-1-2:amd64				install
 libdbusmenu-glib4:amd64				install
 libdbusmenu-gtk3-4:amd64			install
@@ -697,6 +701,7 @@ libde265-dev:amd64				install
 libdebconfclient0:amd64				install
 libdebhelper-perl				install
 libdecor-0-0:amd64				install
+libdecor-0-dev:amd64				install
 libdecor-0-plugin-1-cairo:amd64			install
 libdeflate-dev:amd64				install
 libdeflate0:amd64				install
@@ -728,6 +733,7 @@ libdrm-radeon1:amd64				install
 libdrm2:amd64					install
 libduktape207:amd64				install
 libdumb1:amd64					install
+libdumb1-dev:amd64				install
 libdv4:amd64					install
 libdvbpsi10:amd64				install
 libdvdnav4:amd64				install
@@ -808,6 +814,7 @@ libfile-which-perl				install
 libflac-dev:amd64				install
 libflac12:amd64					install
 libflite1:amd64					install
+libfluidsynth-dev:amd64				install
 libfluidsynth3:amd64				install
 libflute-java					install
 libfm-data					install
@@ -846,6 +853,7 @@ libgail18:amd64					install
 libgarcon-1-0:amd64				install
 libgarcon-common				install
 libgav1-1:amd64					install
+libgbm-dev:amd64				install
 libgbm1:amd64					install
 libgc1:amd64					install
 libgcc-12-dev:amd64				install
@@ -989,6 +997,8 @@ libhwy1:amd64					install
 libhyphen0:amd64				install
 libi2c0:amd64					install
 libib-util:amd64				install
+libibus-1.0-5:amd64				install
+libibus-1.0-dev:amd64				install
 libice-dev:amd64				install
 libice6:amd64					install
 libicu-dev:amd64				install
@@ -1009,6 +1019,7 @@ libinotifytools0:amd64				install
 libinput-bin					install
 libinput10:amd64				install
 libinstpatch-1.0-2:amd64			install
+libinstpatch-dev:amd64				install
 libio-html-perl					install
 libio-interactive-perl				install
 libio-prompter-perl				install
@@ -1029,7 +1040,8 @@ libitext-java					install
 libitm1:amd64					install
 libiw30:amd64					install
 libixml10:amd64					install
-libjack-jackd2-0:amd64				install
+libjack-dev:amd64				install
+libjack0:amd64					install
 libjansson4:amd64				install
 libjavascriptcoregtk-4.1-0:amd64		install
 libjaxp1.3-java					install
@@ -1309,6 +1321,7 @@ libmpeg2-4:amd64				install
 libmpeg2encpp-2.1-0:amd64			install
 libmpfr6:amd64					install
 libmpg123-0:amd64				install
+libmpg123-dev:amd64				install
 libmplex2-2.1-0:amd64				install
 libmro-compat-perl				install
 libmsgpackc2:amd64				install
@@ -1390,7 +1403,9 @@ libopenjp2-7:amd64				install
 libopenmpt-modplug1:amd64			install
 libopenmpt0:amd64				install
 libopenni2-0:amd64				install
+libopus-dev:amd64				install
 libopus0:amd64					install
+libopusfile-dev:amd64				install
 libopusfile0:amd64				install
 liborc-0.4-0:amd64				install
 liborcus-0.17-0:amd64				install
@@ -1398,6 +1413,7 @@ liborcus-parser-0.17-0:amd64			install
 libosp5						install
 libostree-1-1:amd64				install
 libostyle1c2					install
+libout123-0:amd64				install
 libp11-kit0:amd64				install
 libpackage-stash-perl				install
 libpackage-stash-xs-perl:amd64			install
@@ -1473,6 +1489,7 @@ libpoppler-glib8:amd64				install
 libpoppler-qt5-1:amd64				install
 libpoppler126:amd64				install
 libpopt0:amd64					install
+libportmidi-dev					install
 libportmidi0:amd64				install
 libpostproc56:amd64				install
 libpotrace0:amd64				install
@@ -1540,6 +1557,11 @@ libqt5webenginecore5:amd64			install
 libqt5widgets5:amd64				install
 libqt5x11extras5:amd64				install
 libqt5xml5:amd64				install
+libqt6core6:amd64				install
+libqt6dbus6:amd64				install
+libqt6gui6:amd64				install
+libqt6network6:amd64				install
+libqt6widgets6:amd64				install
 libquadmath0:amd64				install
 libqxp-0.0-0					install
 librabbitmq4:amd64				install
@@ -1601,6 +1623,7 @@ libruby:amd64					install
 libruby3.1:amd64				install
 libsac-java					install
 libsamplerate0:amd64				install
+libsamplerate0-dev:amd64			install
 libsane-common					install
 libsane1:amd64					install
 libsasl2-2:amd64				install
@@ -1613,8 +1636,11 @@ libsdl-mixer1.2-dev:amd64			install
 libsdl1.2-dev					install
 libsdl1.2debian:amd64				install
 libsdl2-2.0-0:amd64				install
+libsdl2-dev:amd64				install
 libsdl2-image-2.0-0:amd64			install
+libsdl2-image-dev:amd64				install
 libsdl2-mixer-2.0-0:amd64			install
+libsdl2-mixer-dev:amd64				install
 libseccomp2:amd64				install
 libsecret-1-0:amd64				install
 libsecret-common				install
@@ -1651,6 +1677,8 @@ libsmartcols1:amd64				install
 libsmbclient:amd64				install
 libsnappy1v5:amd64				install
 libsndfile1:amd64				install
+libsndfile1-dev:amd64				install
+libsndio-dev:amd64				install
 libsndio7.0:amd64				install
 libsnmp-base					install
 libsnmp40:amd64					install
@@ -1712,10 +1740,12 @@ libsuitesparseconfig5:amd64			install
 libsvtav1enc1:amd64				install
 libswresample4:amd64				install
 libswscale6:amd64				install
+libsyn123-0:amd64				install
 libsynctex2:amd64				install
 libsyntax-keyword-try-perl			install
 libsys-cpuaffinity-perl				install
 libsys-hostname-long-perl			install
+libsystemd-dev:amd64				install
 libsystemd-shared:amd64				install
 libsystemd0:amd64				install
 libtag1v5:amd64					install
@@ -1768,6 +1798,7 @@ libtorrent-rasterbar2.0:amd64			install
 libtree-sitter-dev:amd64			install
 libtree-sitter0:amd64				install
 libtry-tiny-perl				install
+libts0:amd64					install
 libtsan2:amd64					install
 libtwolame0:amd64				install
 libtype-tiny-perl				install
@@ -1775,6 +1806,7 @@ libtype-tiny-xs-perl:amd64			install
 libtypes-serialiser-perl			install
 libubsan1:amd64					install
 libuchardet0:amd64				install
+libudev-dev:amd64				install
 libudev1:amd64					install
 libudfread0:amd64				install
 libudisks2-0:amd64				install
@@ -2011,6 +2043,7 @@ libyuv0:amd64					install
 libz3-4:amd64					install
 libzbar0:amd64					install
 libzimg2:amd64					install
+libzip-dev:amd64				install
 libzip4:amd64					install
 libzmf-0.0-0:amd64				install
 libzmq5:amd64					install
@@ -2030,8 +2063,9 @@ linux-headers-amd64				deinstall
 linux-image-6.1.0-18-amd64			deinstall
 linux-image-6.1.0-20-amd64			deinstall
 linux-image-6.1.0-21-amd64			deinstall
-linux-image-6.1.0-22-amd64			install
+linux-image-6.1.0-22-amd64			deinstall
 linux-image-6.1.0-23-amd64			install
+linux-image-6.1.0-26-amd64			install
 linux-image-amd64				install
 linux-libc-dev:amd64				install
 lm-sensors					install
@@ -2478,6 +2512,7 @@ nodejs-doc					install
 nohang						install
 notification-daemon				deinstall
 npm						install
+nsxiv						install
 ntfs-3g						install
 ocl-icd-libopencl1:amd64			install
 okular						install
@@ -2668,6 +2703,7 @@ qml-module-qtquick-templates2:amd64		install
 qml-module-qtquick-window2:amd64		install
 qml-module-qtquick2:amd64			install
 qml-module-qtwebengine:amd64			install
+qsynth						install
 qt5-gtk-platformtheme:amd64			install
 qt5-gtk2-platformtheme:amd64			install
 qt5-qmake:amd64					install
@@ -2676,6 +2712,9 @@ qt5-style-kvantum				install
 qt5-style-kvantum-l10n				install
 qt5-style-kvantum-themes			install
 qt5ct						install
+qt6-gtk-platformtheme:amd64			install
+qt6-qpa-plugins:amd64				install
+qt6-translations-l10n				install
 qtchooser					install
 qtspeech5-speechd-plugin:amd64			install
 qttranslations5-l10n				install
@@ -2711,7 +2750,7 @@ shared-mime-info				install
 shim-helpers-amd64-signed			install
 shim-signed:amd64				install
 shim-signed-common				install
-shim-unsigned					install
+shim-unsigned:amd64				install
 signon-plugin-oauth2				install
 simple-scan					install
 slick-greeter					install
@@ -2796,6 +2835,7 @@ texlive-publishers-doc				install
 texlive-science					install
 texlive-science-doc				install
 texlive-xetex					install
+thermald					install
 thunar						deinstall
 thunar-data					deinstall
 thunar-volman					deinstall
@@ -2950,6 +2990,9 @@ zathura-djvu					install
 zathura-pdf-poppler:amd64			install
 zathura-ps:amd64				install
 zip						install
+zipcmp						install
+zipmerge					install
+ziptool						install
 zlib1g:amd64					install
 zlib1g-dev:amd64				install
 zram-tools					install
