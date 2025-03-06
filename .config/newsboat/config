@@ -52,7 +52,10 @@ macro d set browser "dmenuhandler" ; open-in-browser ; set browser linkhandler
 macro c set browser "echo %u | xclip -i -r -sel c" ; open-in-browser ; set browser linkhandler
 macro l set browser "librewolf"; open-in-browser ; set browser linkhandler
 macro f set browser "firefox-esr"; open-in-browser ; set browser linkhandler
+macro q set browser "qutebrowser"; open-in-browser ; set browser linkhandler
+macro y set browser "lynx"; open-in-browser ; set browser linkhandler
 macro s set browser "nohup streamlink --player=mpv --twitch-disable-ads --twitch-low-latency --player-no-close %u 720p60 > /dev/null 2>&1 & notify-send 'Open in MPV with Streamlink'" ; open-in-browser ; set browser linkhandler 
+macro 1 set browser "mpv --player-operation-mode=pseudo-gui -- %u &"; one; set browser linkhandler
 
 highlight article "https?://[^ ]+" 		color117 default
 highlight article "^(Title):.*$"		color117 default
@@ -60,5 +63,3 @@ highlight article "\\[image\\ [0-9]+\\]" 	color117 default
 
 #podboat
 download-path "~/Músicas/"
-max-downloads 3
-player mpd

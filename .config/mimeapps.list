@@ -1,24 +1,26 @@
-[Added Associations]
-application/pdf=libreoffice-impress.desktop;org.qutebrowser.qutebrowser.desktop;librewolf.desktop;firefox.desktop;org.pwmt.zathura.desktop;org.pwmt.zathura-pdf-mupdf.desktop;libreoffice-draw.desktop;mupdf.desktop;org.pwmt.zathura-pdf-poppler.desktop;
-application/epub+zip=org.pwmt.zathura.desktop;libreoffice-writer.desktop;org.pwmt.zathura-pdf-poppler.desktop;org.pwmt.zathura-djvu.desktop;
-text/plain=libreoffice-writer.desktop;org.pwmt.zathura.desktop;calibre-gui.desktop;calibre-ebook-viewer.desktop;
-image/jpeg=img.desktop;
-text/x-python=code.desktop;
-image/png=img.desktop;
-application/x-partial-download=xreader.desktop;libreoffice-startcenter.desktop;
-image/gif=mpv.desktop;vlc.desktop;
-text/markdown=firefox.desktop;
-video/mp4=mpv.desktop;
-application/octet-stream=nvim.desktop;mpv.desktop;
-application/x-doom-wad=dsda-doom.desktop;
-application/x-mobipocket-ebook=org.pwmt.zathura.desktop;
-inode/directory=xfce4-file-manager.desktop;
-x-scheme-handler/trash=xfce4-file-manager.desktop;
-application/vnd.openxmlformats-officedocument.wordprocessingml.document=org.pwmt.zathura.desktop;
-application/zip=sqlitebrowser.desktop;
-image/tiff=org.gimp.GIMP.desktop;
-image/x-hdr=img.desktop;
-application/illustrator=org.pwmt.zathura-pdf-poppler.desktop;
+#[Added Associations]
+#application/pdf=chromium.desktop;libreoffice-impress.desktop;org.qutebrowser.qutebrowser.desktop;librewolf.desktop;firefox.desktop;org.pwmt.zathura.desktop;org.pwmt.zathura-pdf-mupdf.desktop;libreoffice-draw.desktop;mupdf.desktop;org.pwmt.zathura-pdf-poppler.desktop;
+#application/epub+zip=org.kde.okular.desktop;org.pwmt.zathura.desktop;libreoffice-writer.desktop;org.pwmt.zathura-pdf-poppler.desktop;org.pwmt.zathura-djvu.desktop;
+#text/plain=libreoffice-writer.desktop;org.pwmt.zathura.desktop;calibre-gui.desktop;calibre-ebook-viewer.desktop;
+#image/jpeg=img.desktop;
+#text/x-python=code.desktop;
+#image/png=img.desktop;
+#application/x-partial-download=xreader.desktop;libreoffice-startcenter.desktop;
+#image/gif=mpv.desktop;vlc.desktop;
+#text/markdown=firefox.desktop;
+#video/mp4=mpv.desktop;
+#application/octet-stream=nvim.desktop;mpv.desktop;
+#application/x-doom-wad=dsda-doom.desktop;
+#application/x-mobipocket-ebook=org.pwmt.zathura.desktop;
+#inode/directory=xfce4-file-manager.desktop;
+#x-scheme-handler/trash=xfce4-file-manager.desktop;
+#application/vnd.openxmlformats-officedocument.wordprocessingml.document=org.pwmt.zathura.desktop;
+#application/zip=sqlitebrowser.desktop;
+#image/tiff=org.gimp.GIMP.desktop;
+#image/x-hdr=img.desktop;
+#application/illustrator=org.pwmt.zathura-pdf-poppler.desktop;
+#application/vnd.openxmlformats-officedocument.presentationml.presentation=calibre-gui.desktop;calibre-ebook-viewer.desktop;
+#application/x-ms-dos-executable=com.heroicgameslauncher.hgl.desktop;winetricks.desktop;net.lutris.Lutris.desktop;net.lutris.grand-theft-auto-san-andreas-1.desktop;
 
 [Default Applications]
 x-scheme-handler/fcade=fcade-quark.desktop
@@ -30,9 +32,13 @@ x-scheme-handler/about=librewolf.desktop
 x-scheme-handler/unknown=librewolf.desktop
 inode/directory=xfce4-file-manager.desktop
 x-scheme-handler/trash=xfce4-file-manager.desktop
-image/jpeg=img.desktop
+iimage/png=img.desktop;
+image/jpeg=img.desktop;
+image/gif=img.desktop;
 application/illustrator=org.pwmt.zathura-pdf-poppler.desktop
 application/pdf=org.pwmt.zathura-pdf-poppler.desktop
+text/x-shellscript=text.desktop;
+text/plain=text.desktop;
 
 [Removed Associations]
 application/pdf=userapp-zathura-NECJU2.desktop;userapp-zathura-8IRQU2.desktop;

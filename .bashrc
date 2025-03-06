@@ -83,6 +83,7 @@ if [ -x /usr/bin/dircolors ]; then
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
+    alias diff='diff --color=auto'
 fi
 
 # colored GCC warnings and errors
@@ -136,6 +137,8 @@ alias flightgear='devour flatpak run org.flightgear.FlightGear'
 alias tsp='ts'
 alias syncthing='devour syncthing'
 alias gpt4all='devour flatpak run io.gpt4all.gpt4all'
+alias nvidia='__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia'
+alias lf='lfub'
 function yta() {
     mpv --ytdl-format=bestaudio ytdl://ytsearch:"$*"
 }
@@ -156,3 +159,4 @@ __git_complete dotfiles __git_main
 export BIB="$HOME/Documentos/bib.bib"
 export XDG_DATA_DIRS=$HOME/.nix-profile/share/:$HOME/.share:"${XDG_DATA_DIRS:-/usr/share/}"
 export LC_ALL=C.utf8
+export EDITOR="nvim" VISUAL="$EDITOR"

@@ -6,7 +6,6 @@ if [ "$rc" == 0 ]; then
 /bin/redshift-gtk &
 fi
 nitrogen --restore &
-#/bin/redshift-gtk &
 #mintupdate-launcher &
 nm-applet &
 #xfce4-timer-plugin &
@@ -20,8 +19,8 @@ fi
 xset r rate 300 50 &
 sxhkd &
 flameshot &
-kc=$(pgrep -l kdeconnect-app | wc -l)
-if [ "$kc" == 0 ]; then
-kdeconnect-app &
-syncthing &
+#syncthing &
+blueman-applet &
+sc=$(pgrep -l librewolf | wc -l)
+if [ "$sc" == 1]; then
 fi
