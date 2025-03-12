@@ -4,5 +4,3 @@
 	email = kayode.vital@tutanota.com
 [core]
 	editor = nvim
-[pull]
-	rebase = false

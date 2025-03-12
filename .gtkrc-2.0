@@ -4,7 +4,11 @@
 include "/home/kayode/.gtkrc-2.0.mine"
 gtk-theme-name="Arc-Dark"
 gtk-icon-theme-name="ePapirus-Dark"
+<<<<<<< HEAD
 gtk-font-name="Ubuntu 11"
+=======
+gtk-font-name="Ubuntu 10"
+>>>>>>> babc4b358bb7873567320a4c9a93007482bb028a
 gtk-cursor-theme-name="DMZ-Black"
 gtk-cursor-theme-size=0
 gtk-toolbar-style=GTK_TOOLBAR_ICONS

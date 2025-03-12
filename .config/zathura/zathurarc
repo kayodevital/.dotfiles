@@ -1,7 +1,11 @@
 set selection-clipboard clipboard
 set statusbar-h-padding 0
 set statusbar-v-padding 0
+<<<<<<< HEAD
 set page-padding 0
+=======
+#set page-padding 1
+>>>>>>> babc4b358bb7873567320a4c9a93007482bb028a
 map u scroll half-up
 map d scroll half-down
 map D toggle_page_mode

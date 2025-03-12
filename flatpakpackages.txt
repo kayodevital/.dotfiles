@@ -1,0 +1,5 @@
+Heroic Games Launcher	com.heroicgameslauncher.hgl	v2.15.2	stable	system
+Steam	com.valvesoftware.Steam	1.0.0.81	stable	system
+SciDAVis	net.sourceforge.scidavis	2.9.2	stable	system
+Programa de manipulação de imagem do GNU	org.gimp.GIMP	2.10.38	stable	system
+RetroArch	org.libretro.RetroArch	1.19.1	stable	system

@@ -30,7 +30,13 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 #. "$HOME/.cargo/env"
+<<<<<<< HEAD
 export BIB=$HOME/Documentos/bib.bib
 export TERMINAL=st
 export EDITOR=nvim VISUAL=nvim
+=======
+export BIB="$HOME/Documentos/bib.bib"
+export TERMINAL="st"
+
+>>>>>>> babc4b358bb7873567320a4c9a93007482bb028a
 if [ -e /home/kayode/.nix-profile/etc/profile.d/nix.sh ]; then . /home/kayode/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
