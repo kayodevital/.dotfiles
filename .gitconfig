@@ -3,6 +3,6 @@
 	mail = kayode.vital@tutanota.com
 	email = kayode.vital@tutanota.com
 [core]
-	editor = vim
+	editor = nvim
 [pull]
 	rebase = false
