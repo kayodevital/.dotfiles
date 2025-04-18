@@ -1,3 +1,5 @@
+* {color:#F5F5F5;}
+
 .window-frame, .window-frame:backdrop {
  box-shadow: 0 0 0 black;
  border-style: none;
@@ -23,4 +25,3 @@ GtkLabel.title {
     opacity: 0;
 }*/
 
-* {color:#F5F5F5;}

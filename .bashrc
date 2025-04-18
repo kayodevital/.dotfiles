@@ -127,8 +127,8 @@ alias steam="devour flatpak run com.valvesoftware.Steam"
 alias ovito="cd ovito-basic-3.9.4-x86_64/bin && devour ./ovito"
 alias scidavis="devour flatpak run net.sourceforge.scidavis"
 alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
-alias doom='cd Doom/DOOM/ && devour doom DOOM.WAD'
-alias dsda-doom='devour dsda-doom'
+#alias doom='cd Doom/DOOM/ && devour doom DOOM.WAD'
+#alias dsda-doom='devour dsda-doom'
 alias timeshift-gtk='devour sudo timeshift-gtk'
 alias retroarch='devour flatpak run org.libretro.RetroArch'
 alias heroic='devour flatpak run com.heroicgameslauncher.hgl'

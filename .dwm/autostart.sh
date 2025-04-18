@@ -20,7 +20,7 @@ xset r rate 300 50 &
 sxhkd &
 flameshot -t false &
 #syncthing &
-blueman-applet &
+#blueman-applet &
 sc=$(pgrep -l librewolf | wc -l)
 #if [ "$sc" == 1]; then
 #fi
