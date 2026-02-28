@@ -33,5 +33,7 @@ fi
 export BIB=$HOME/Documentos/bib.bib
 export TERMINAL=st
 export EDITOR=nvim VISUAL=nvim
+export PATH=$PATH:/usr/local/go/bin
 
 if [ -e /home/kayode/.nix-profile/etc/profile.d/nix.sh ]; then . /home/kayode/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+export QT_STYLE_OVERRIDE=kvantum

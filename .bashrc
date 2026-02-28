@@ -122,23 +122,33 @@ alias sxiv="devour sxiv"
 alias nsxiv="devour nsxiv"
 alias vim="nvim"
 alias mpv="devour mpv"
-alias gimp="devour flatpak run org.gimp.GIMP"
-alias steam="devour flatpak run com.valvesoftware.Steam"
-alias ovito="cd ovito-basic-3.9.4-x86_64/bin && devour ./ovito"
-alias scidavis="devour flatpak run net.sourceforge.scidavis"
 alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
 #alias doom='cd Doom/DOOM/ && devour doom DOOM.WAD'
 #alias dsda-doom='devour dsda-doom'
-alias timeshift-gtk='devour sudo timeshift-gtk'
-alias retroarch='devour flatpak run org.libretro.RetroArch'
-alias heroic='devour flatpak run com.heroicgameslauncher.hgl'
-alias steam='devour flatpak run com.valvesoftware.Steam'
-alias flightgear='devour flatpak run org.flightgear.FlightGear'
 alias tsp='ts'
-alias syncthing='devour syncthing'
-alias gpt4all='devour flatpak run io.gpt4all.gpt4all'
 alias nvidia='__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia'
 alias lf='lfub'
+alias lynx='lynx -tna'
+alias enpt='sdcv -u "Michaelis Moderno Dicionário Inglês-Português (English-Portuguese)" --utf8-output --color -j'
+alias pt='sdcv -u "Michaelis Moderno Dicionário da Língua Portuguesa" --utf8-output --color -j'
+
+function sdcv() {
+    fzf --prompt="Dict: " \
+    --phony \
+    --bind "enter:reload(sdcv {q} -n --json | jq '.[].dict' -r)" \
+    --preview "sdcv {q} -en --use-dict={} | elinks -dump" \
+    --preview-window=wrap \
+   < <(echo)
+}
+function sd() {
+    fzf --prompt="Dict: " \
+    --phony \
+    --bind "enter:reload(sdcv -n {q} --json | jq '.[].word' -r)" \
+    --preview "sdcv -en {}" \
+    --height=40% \
+    --border \
+    < <(echo)
+}
 function yta() {
     mpv --ytdl-format=bestaudio ytdl://ytsearch:"$*"
 }
@@ -159,4 +169,29 @@ __git_complete dotfiles __git_main
 export BIB="$HOME/Documentos/bib.bib"
 export XDG_DATA_DIRS=$HOME/.nix-profile/share/:$HOME/.share:"${XDG_DATA_DIRS:-/usr/share/}"
 export LC_ALL=C.utf8
-export EDITOR="nvim" VISUAL="$EDITOR"
+export EDITOR=nvim VISUAL="$EDITOR"
+export SDCV_PAGER='less --quit-if-one-screen -RX'
+export PATH=$PATH:/usr/local/go/bin
+
+# study stream aliases
+# Requires https://github.com/caarlos0/timer to be installed. spd-say should ship with your distro
+
+#declare -A pomo_options
+#pomo_options["work"]="25"
+#pomo_options["break"]="5"
+#
+#pomodoro () {
+#  if [ -n "$1" -a -n "${pomo_options["$1"]}" ]; then
+#  val=$1
+#  echo $val | lolcat
+#  timer ${pomo_options["$val"]}m
+#  spd-say "'$val' session done"
+#  fi
+#}
+#
+#alias wo="pomodoro 'work'"
+#alias br="pomodoro 'break'"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

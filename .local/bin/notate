@@ -31,7 +31,7 @@ EOF
 }
 
 check_file() {
-    file="$HOME/Documentos/Pesquisa/notas/$1.md"
+    file="$HOME/Documentos/Notas/$1.md"
     if [[ -f $file ]]; then
         file_doi=$(grep -o -E "doi = {[^}]*" $file | cut -d{ -f2)
         if [[ "${file_doi,,}" =~ "${doi,,}" ]]; then

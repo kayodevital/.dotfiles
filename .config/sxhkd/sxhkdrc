@@ -1,6 +1,10 @@
-super + shift + r
-	/bin/redshift-gtk 
-super + shift + x
-	pkill redshift-gtk 
-super + p
-	flameshot gui
+super + Insert
+	~/.local/bin/dmenurecord
+super + v
+	nvim
+super + n
+	/usr/local/bin/newsboat
+super + u
+	pcmanfm
+super + Escape
+	pkill -USR1 -x sxhkd; notify-send 'sxhkd' 'Reloaded config'
