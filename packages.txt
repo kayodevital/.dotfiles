@@ -27,7 +27,7 @@ android-sdk-platform-tools-common		install
 ant						install
 ant-optional					install
 apparmor					install
-appstream					install
+appstream					deinstall
 apt						install
 apt-listchanges					install
 apt-utils					install
@@ -148,10 +148,11 @@ debian-archive-keyring				install
 debian-faq					install
 debian-keyring					install
 debianutils					install
+deborphan					install
 debsums						install
 default-jre					install
 default-jre-headless				install
-deja-dup					install
+deja-dup					deinstall
 desktop-base					install
 desktop-file-utils				install
 devscripts					install
@@ -181,7 +182,6 @@ dpkg						install
 dpkg-dev					install
 dput						install
 dunst						install
-duplicity					install
 dvidvi						install
 dvipng						install
 dvisvgm						install
@@ -3270,8 +3270,7 @@ p11-kit						install
 p11-kit-modules:amd64				install
 p7zip						install
 p7zip-full					install
-packagekit					install
-packagekit-tools				install
+packagekit					deinstall
 pamixer						install
 pandoc						install
 pandoc-citeproc-preamble			install
