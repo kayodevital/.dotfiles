@@ -201,6 +201,7 @@ espeak-ng-data:amd64				install
 etc1tool					install
 ethtool						deinstall
 exa						install
+exfat-fuse					install
 exfatprogs					install
 exo-utils					install
 extrepo						install
