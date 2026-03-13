@@ -19,6 +19,7 @@ shopt -s histappend
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=-1
 HISTFILESIZE=-1
+HISTTIMEFORMAT="%F %T "
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
@@ -152,6 +153,7 @@ function sd() {
 function yta() {
     mpv --ytdl-format=bestaudio ytdl://ytsearch:"$*"
 }
+
 #apt() { 
 #  command nala "$@"
 #}
@@ -163,35 +165,10 @@ function yta() {
 #    command sudo "$@"
 #  fi
 #}
+
 set -o vi
 source /usr/share/bash-completion/completions/git
 __git_complete dotfiles __git_main
-export BIB="$HOME/Documentos/bib.bib"
-export XDG_DATA_DIRS=$HOME/.nix-profile/share/:$HOME/.share:"${XDG_DATA_DIRS:-/usr/share/}"
-export LC_ALL=C.utf8
-export EDITOR=nvim VISUAL="$EDITOR"
-export SDCV_PAGER='less --quit-if-one-screen -RX'
-export PATH=$PATH:/usr/local/go/bin
 
-# study stream aliases
-# Requires https://github.com/caarlos0/timer to be installed. spd-say should ship with your distro
-
-#declare -A pomo_options
-#pomo_options["work"]="25"
-#pomo_options["break"]="5"
-#
-#pomodoro () {
-#  if [ -n "$1" -a -n "${pomo_options["$1"]}" ]; then
-#  val=$1
-#  echo $val | lolcat
-#  timer ${pomo_options["$val"]}m
-#  spd-say "'$val' session done"
-#  fi
-#}
-#
-#alias wo="pomodoro 'work'"
-#alias br="pomodoro 'break'"
-
-export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
