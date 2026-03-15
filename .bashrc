@@ -118,20 +118,24 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
 alias zathura="devour zathura"
 alias sxiv="devour sxiv"
 alias nsxiv="devour nsxiv"
 alias vim="nvim"
 alias mpv="devour mpv"
 alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
-#alias doom='cd Doom/DOOM/ && devour doom DOOM.WAD'
-#alias dsda-doom='devour dsda-doom'
 alias tsp='ts'
 alias nvidia='__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia'
 alias lf='lfub'
 alias lynx='lynx -tna'
 alias enpt='sdcv -u "Michaelis Moderno Dicionário Inglês-Português (English-Portuguese)" --utf8-output --color -j'
 alias pt='sdcv -u "Michaelis Moderno Dicionário da Língua Portuguesa" --utf8-output --color -j'
+[ -f "$XINITRC" ] && alias startx='startx $XINITRC'
+alias abook='abook --config "$XDG_CONFIG_HOME"/abook/abookrc --datafile "$XDG_DATA_HOME"/abook/addressbook'
+alias adb='HOME="$XDG_DATA_HOME"/android adb'
+alias mbsync='mbsync -c "$XDG_CONFIG_HOME"/isync/mbsyncrc'
+alias wget="wget --hsts-file=$XDG_DATA_HOME/wget-hsts"
 
 function sdcv() {
     fzf --prompt="Dict: " \
@@ -172,3 +176,4 @@ __git_complete dotfiles __git_main
 
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export PATH="/opt/zig:$PATH"
