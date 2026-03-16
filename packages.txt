@@ -29,6 +29,7 @@ ant-optional					install
 apparmor					install
 appstream					deinstall
 apt						install
+apt-forktracer					install
 apt-listchanges					install
 apt-utils					install
 aptitude					install
@@ -94,6 +95,7 @@ calibre						install
 calibre-bin					install
 chafa						install
 chktex						install
+cifs-utils					install
 cm-super					install
 cm-super-minimal				install
 cmake						install
@@ -546,6 +548,7 @@ kdeconnect					install
 kded5						install
 keditbookmarks					install
 keyboard-configuration				install
+keyutils					install
 kinit						install
 kio						install
 klibc-utils					install
@@ -2380,6 +2383,7 @@ libupnp13:amd64					install
 libupower-glib3:amd64				install
 liburi-perl					install
 liburing2:amd64					install
+libusb-0.1-4:amd64				install
 libusb-1.0-0:amd64				install
 libusb-1.0-0:i386				install
 libusbmuxd6:amd64				install
@@ -2840,6 +2844,8 @@ netbase						install
 netcat-openbsd					install
 netcat-traditional				install
 netpbm						install
+netselect					install
+netselect-apt					install
 network-manager					install
 network-manager-gnome				install
 newsboat					install
@@ -3454,6 +3460,7 @@ python3-joblib					install
 python3-keyutils				install
 python3-kiwisolver				install
 python3-langdetect				install
+python3-ldb					install
 python3-lib2to3					install
 python3-libvirt					install
 python3-libxml2:amd64				install
@@ -3536,6 +3543,7 @@ python3-requests-toolbelt			install
 python3-rfc3986					install
 python3-rich					install
 python3-routes					install
+python3-samba					install
 python3-scipy					install
 python3-setproctitle:amd64			install
 python3-setuptools				install
@@ -3554,6 +3562,8 @@ python3-speechd					install
 python3-stack-data				install
 python3-streamlink				install
 python3-sympy					install
+python3-talloc:amd64				install
+python3-tdb					install
 python3-texttable				install
 python3-tk:amd64				install
 python3-tomli					install
@@ -3713,6 +3723,9 @@ ruby3.1						install
 rubygems-integration				install
 runit-helper					install
 sa-compile					install
+samba-common					install
+samba-common-bin				install
+samba-dsdb-modules:amd64			install
 samba-libs:amd64				install
 sane-airscan:i386				install
 sane-utils					install
@@ -3733,6 +3746,7 @@ signon-plugin-oauth2				install
 simple-scan					install
 slick-greeter					install
 slop						install
+smbclient					install
 sonnet-plugins:amd64				install
 sound-icons					install
 sound-theme-freedesktop				install
